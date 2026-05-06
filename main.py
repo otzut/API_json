@@ -15,7 +15,7 @@ app.add_middleware(
 )
 
 # ── Config ──────────────────────────────────────────
-BASE_URL = "http://localhost:8000"  # ← à modifier
+BASE_URL = "https://apijson-production.up.railway.app"
 VAL_DATE = [45292, 45382, 45473, 45565, 45657]
 TRIM_RANGES = {
     1: range(VAL_DATE[0], VAL_DATE[1] + 1),
