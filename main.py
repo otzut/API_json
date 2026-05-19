@@ -25,7 +25,7 @@ TRIM_RANGES = {
 }
 
 # ── Chargement CSV ───────────────────────────────────
-df = pd.read_csv("Compta_2024.csv", sep=";").replace({np.nan: None})
+df = pd.read_csv("Compta_2024.csv", sep=";").replace({np.nan: None}.head(2))
 
 # ── Middleware OData headers ─────────────────────────
 @app.middleware("http")
